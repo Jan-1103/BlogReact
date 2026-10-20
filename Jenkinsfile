@@ -1,11 +1,12 @@
-﻿pipeline {
+﻿
+pipeline {
     agent any
 
     stages {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Vennilavanguvi/BlogReact.git'
+                    url: 'https://github.com/Jan-1103/BlogReact.git'
             }
         }
 
